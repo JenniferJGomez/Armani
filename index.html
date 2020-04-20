@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Armani</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    
+    <!-- NavBar section -->
+    <div class="navbar">
+        <img id = "logo" src = "/Users/jennifergomez/Desktop/Freelance/Armani/logo.png">
+        <div class="dropdown">
+          <button class="dropbtn">Sections
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#features">Features & Amenities</a>
+            <a href="#floorplans">Floor Plans</a>
+            <a href="#">Photos</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Landing Image Section -->
+      <div class = "landing-div">
+          <img class = "landing-img" src = "/Users/jennifergomez/Desktop/Freelance/Armani/landing-img.png">
+      </div>
+
+      <!-- Features & Amenities -->
+      <div class = "features-div">
+        <a id ="features">
+            <img src = "/Users/jennifergomez/Desktop/Freelance/Armani/features.png">
+        </a>
+      </div>
+
+      <!-- Floorplans Section -->
+      <div class = "floorplans-div">
+        <a id = "floorplans">
+            <img src = "/Users/jennifergomez/Desktop/Freelance/Armani/Floorplans.png">
+        </a>
+      </div>
+
+      <!-- Carousel Section -->
+      <div class="container">
+        <h2>Carousel Example</h2>  
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+            </div>
+      
+            <div class="item">
+              <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+            </div>
+          
+            <div class="item">
+              <img src="ny.jpg" alt="New york" style="width:100%;">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+</body>
+</html>
