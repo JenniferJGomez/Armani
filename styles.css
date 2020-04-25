@@ -1,8 +1,7 @@
-
-.landing-img{
-    width: 100%;
+/*body of landing page*/
+body{
+  background-color: black;
 }
-
 
 /* Navbar container */
 
@@ -13,7 +12,7 @@
 
 .navbar {
     overflow: hidden;
-    position: fixed;
+    /* position: fixed; */
     background-color: black;
     font-family: Arial;
     width: 100%;
@@ -39,9 +38,9 @@
   /* Dropdown button */
   .dropdown .dropbtn {
     font-size: 16px;
-    border: white;
+    border: #ab914a;
     border-style: solid;
-    outline: white;
+    outline: #ab914a;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
@@ -51,7 +50,7 @@
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: goldenrod;
   }
   
   /* Dropdown content (hidden by default) */
@@ -84,8 +83,78 @@
     display: block;
   }
 
-
-  /*body of landing page*/
-  body{
-      background-color: black;
+/* Landing Section */
+  .landing-img{
+    width: 100%;
   }
+
+  .quote{
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding-top: 20px;
+  }
+
+  #property-info-header{
+    color: #ab914a;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .property-description{
+    color: white;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* Virtual tour Section */
+  .tour-header{
+    color: #ab914a;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+
+  /*Features Section*/
+  .features-header{
+    color: #ab914a;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .features-div{
+    margin: auto;
+  }
+
+  .features-img{
+    padding-left: 30px;
+    width: 80%;
+    margin: auto;
+    display: block;
+
+  }
+
+  .divider{
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+
+  /* Photos */
+  .photo-header{
+    color: #ab914a;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+
