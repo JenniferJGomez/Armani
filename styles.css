@@ -161,3 +161,38 @@ body{
     margin-bottom: 10px;
   }
 
+  /* Additional info */
+  .additional-info-header{
+    color: #ab914a;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+
+  #links-list{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .item{
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .contact{
+    color: #ab914a;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+
+  .signature{
+    margin: auto;
+    display: block;
+    width: 50%;
+  }
