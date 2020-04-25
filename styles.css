@@ -1,6 +1,8 @@
 /*body of landing page*/
 body{
   background-color: black;
+  padding: 0;
+  margin: 0;
 }
 
 /* Navbar container */
@@ -11,12 +13,10 @@ body{
 }
 
 .navbar {
-    overflow: hidden;
-    /* position: fixed; */
     background-color: black;
     font-family: Arial;
     width: 100%;
-
+    position: fixed;
   }
   
   /* Links inside the navbar */
@@ -33,6 +33,8 @@ body{
   .dropdown {
     float: right;
     overflow: hidden;
+    padding-right: 20px;
+    padding-top: 30px;
   }
   
   /* Dropdown button */
@@ -61,6 +63,7 @@ body{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    padding-right: 10px;
   }
   
   /* Links inside the dropdown */
