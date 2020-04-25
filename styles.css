@@ -161,6 +161,68 @@ body{
     margin-bottom: 10px;
   }
 
+  button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container{
+  width: 800px;
+  margin: auto;
+  overflow-x: hidden;
+  position: relative;
+    
+}
+
+.slider-slide{
+  background: pink;
+  display: flex;
+  margin:0;
+  padding:0;
+  width: 100%;
+}
+
+.img-slides{
+  width: 50%;
+}
+
+/* .prevBtn{
+  position: absolute;
+  top:50%;
+  left:0;
+  margin-left: 10px;
+  z-index: 100;
+}
+
+.prevBtn::after{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f137';
+  font-size: 2rem;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.nextBtn{
+  position: absolute;
+  top:50%;
+  right:0;
+  margin-right: 10px;
+  z-index: 100;
+}
+
+.nextBtn::after{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f138';
+  font-size: 2rem;
+  color: blue;
+  opacity: 0.5;
+  cursor: pointer;
+} */
+
   /* Additional info */
   .additional-info-header{
     color: #ab914a;
