@@ -8,8 +8,10 @@ body{
 /* Navbar container */
 
 #logo{
-    width: 150px;
-    height: 104px;
+    width: 100px;
+    height: 69px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navbar {
@@ -34,42 +36,45 @@ body{
     float: right;
     overflow: hidden;
     padding-right: 20px;
-    padding-top: 30px;
+    
   }
   
   /* Dropdown button */
   .dropdown .dropbtn {
     font-size: 16px;
-    border: #ab914a;
-    border-style: solid;
-    outline: #ab914a;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
+    border: hidden;
+  }
+
+  .hamburger{
+    width: 50px;
   }
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: goldenrod;
+    background-color: #ab914a;
   }
   
   /* Dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
+    background-color: black;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     padding-right: 10px;
+    text-align: left;
   }
   
   /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -78,7 +83,7 @@ body{
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #ab914a;;
   }
   
   /* Show the dropdown menu on hover */
@@ -94,8 +99,11 @@ body{
   .quote{
     display: block;
     margin: auto;
-    width: 60%;
+    width: 75%;
     padding-top: 20px;
+    color: white;
+    font-family: 'Arapey', serif;
+    text-align: center;
   }
 
   #property-info-header{
@@ -114,28 +122,36 @@ body{
     font-family: 'Montserrat', sans-serif;
   }
 
+  .paragraph-text{
+    text-align: justify;
+  }
+
   /* Virtual tour Section */
   .tour-header{
     color: #ab914a;
     text-align: center;
-    font-size: 60px;
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
   }
-
-
 
   /*Features Section*/
   .features-header{
     color: #ab914a;
     text-align: center;
-    font-size: 60px;
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
   }
 
   .features-div{
     margin: auto;
+    text-align: center;
+    display: block;
+  }
+
+  #virtual-tour{
+    margin: auto;
+    text-align: center;
+    display: block;
   }
 
   .features-img{
@@ -147,7 +163,7 @@ body{
   }
 
   .divider{
-    width: 50%;
+    width: 25%;
     margin: auto;
     display: block;
   }
@@ -157,7 +173,6 @@ body{
     color: #ab914a;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
     margin-bottom: 10px;
   }
 
@@ -181,64 +196,82 @@ body{
   margin:0;
   padding:0;
   width: 100%;
-  margin-left: 125px;
 }
 
 .img-slides{
-  width: 70%;
+  width: 853px;
 }
 
-/* .prevBtn{
+.prevBtn {
   position: absolute;
-  top:50%;
-  left:0;
-  margin-left: 10px;
-  z-index: 100;
+  top: 50%;
+  left: 4%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.prevBtn::after{
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  content: '\f137';
-  font-size: 2rem;
-  color: white;
-  opacity: 0.5;
-  cursor: pointer;
+.prevBtn:hover {
+  background-color: rgba(119, 126, 149, 0.3);
 }
 
 .nextBtn{
   position: absolute;
-  top:50%;
-  right:0;
-  margin-right: 10px;
-  z-index: 100;
+  top: 50%;
+  right: -2%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.nextBtn::after{
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  content: '\f138';
-  font-size: 2rem;
-  color: blue;
-  opacity: 0.5;
-  cursor: pointer;
-} */
+.nextBtn:hover{
+  background-color: rgba(119, 126, 149, 0.3);
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.nextBtn:active {
+  outline: none;
+  border: none;
+}
+
+button:focus {outline:0;}
 
   /* Additional info */
   .additional-info-header{
     color: #ab914a;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
     margin-bottom: 10px;
   }
 
-  #links-list{
-    color: white;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
 
   .item{
     color: white;
@@ -250,7 +283,6 @@ body{
     color: #ab914a;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 60px;
     margin-bottom: 10px;
   }
 
@@ -269,7 +301,8 @@ body{
   }
 
   .signature{
+    padding-top: 15px;
     margin: auto;
     display: block;
-    width: 50%;
+    width: 60%;
   }
