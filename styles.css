@@ -297,7 +297,7 @@ button:focus {outline:0;}
 
   .cta-btn{
     transition-duration: 0.4s;
-    width: 200px;
+    width: 13%;
     height: 40px;
     border-radius: 9px;
     font-family: 'Montserrat', sans-serif;
@@ -306,7 +306,7 @@ button:focus {outline:0;}
 
   .cta-btn2{
     transition-duration: 0.4s;
-    width: 200px;
+    width: 13%;
     height: 40px;
     border-radius: 9px;
     font-family: 'Montserrat', sans-serif;
