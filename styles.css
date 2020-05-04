@@ -50,8 +50,8 @@ body{
   .dropdown {
     float: right;
     overflow: hidden;
-    padding-right: 20px;
-    
+    padding-right: 25px;
+    padding-top: 20px;
   }
   
   /* Dropdown button */
@@ -121,7 +121,8 @@ body{
   }
 
   .quote-text{
-    font-family: 'PT Serif', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
   }
 
 
@@ -131,6 +132,13 @@ body{
     font-size: 60px;
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+  }
+
+  #prop-price{
+    font-weight: 800;
+    font-size: 30px;
+    font-style: italic;
   }
 
   .property-description{
@@ -144,6 +152,7 @@ body{
 
   .paragraph-text{
     text-align: justify;
+    font-size: 20px;
   }
 
   /* Virtual tour Section */
@@ -153,6 +162,7 @@ body{
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     padding-top: 10px;
+    font-weight: lighter;
   }
 
   #vt{
@@ -165,6 +175,7 @@ body{
     text-align: center;
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
   }
 
   .features-div{
@@ -209,6 +220,7 @@ body{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
+    font-weight: lighter;
   }
 
   button {
