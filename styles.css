@@ -6,6 +6,7 @@ body{
   text-align: center;
 }
 
+
 #divider {
   width: 70%;
   display: block;
@@ -176,28 +177,30 @@ body{
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
+    font-size: 45px;
+    padding-bottom: 40px;
   }
 
   .features-div{
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
-    width: 55%;
+    width: 80%;
     margin: auto;
     display: inline-block;
     align-items: center;
     justify-content: center;
   }
 
-.table-left{
-  width: 350px;
-  float: left;
-}
+  .table-left{
+    width: 47%;
+    float: left;
+  }
 
-.table-right{
-  width: 350px;
-  float: right;
-}
+  .table-right{
+    width: 47%;
+    float: right;
+  }
 
 /* Virtual tour section */
   #virtual-tour{
@@ -221,6 +224,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
     font-weight: lighter;
+    font-size: 45px;
+    padding-bottom: 40px;
   }
 
   button {
@@ -234,7 +239,7 @@ body{
   margin: auto;
   overflow-x: hidden;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .slider-slide{
