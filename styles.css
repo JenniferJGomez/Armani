@@ -328,7 +328,7 @@ button:focus {outline:0;}
 
   .cta-btn{
     transition-duration: 0.4s;
-    width: 150px;
+    width: 75%;
     height: 40px;
     border-radius: 9px;
     font-family: 'Montserrat', sans-serif;
@@ -337,7 +337,7 @@ button:focus {outline:0;}
 
   .cta-btn2{
     transition-duration: 0.4s;
-    width: 150px;
+    width: 75%;
     height: 40px;
     border-radius: 9px;
     font-family: 'Montserrat', sans-serif;
@@ -358,59 +358,40 @@ button:focus {outline:0;}
     background-color: black;
     color: #a49b63;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    /* position: absolute;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    top: 60%;
-    left: 28%; */
+    font-size: 0.75rem;
   }
 
   .email-link2{
     background-color: black;
     color: #a49b63;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    /* position: absolute;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    top: 68%;
-    left: 60%; */
+    font-size: 0.75rem;
   }
 
   .phone-link1{
     background-color: black;
     color: #a49b63;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    /* position: absolute;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    top: 48%;
-    left: 25%; */
+    font-size: 0.75rem;
   }
 
   .phone-link2{
     background-color: black;
     color: #a49b63;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 0.75rem;
   }
 
   .ozzie-div{
     position: absolute;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    top: 66%;
-    left: 38.5%;
-    text-align: justify;
+    top: 50%;
+    left: 32%;
+    text-align: left;
   }
 
   .alina-div{
     text-align: right;
     position: absolute;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    top: 66%;
-    left: 61%;
+    top: 50%;
+    right: 32%;
   }
