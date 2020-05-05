@@ -248,10 +248,12 @@ body{
   margin:0;
   padding:0;
   width: 100%;
+  align-items: flex-start;
 }
 
 .img-slides{
   width: 853px;
+  height: auto;
 }
 
 .prevBtn {
