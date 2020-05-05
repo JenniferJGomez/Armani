@@ -35,6 +35,7 @@ body{
     font-family: Arial;
     width: 100%;
     position: fixed;
+    top: 0;
   }
   
   /* Links inside the navbar */
@@ -112,6 +113,10 @@ body{
     width: 100%;
   }
 
+  .first-div{
+    
+  }
+
   .quote{
     display: block;
     margin: auto;
@@ -119,6 +124,7 @@ body{
     padding-top: 70px;
     color: white;
     text-align: center;
+    font-weight: 200;
   }
 
   .quote-text{
@@ -130,16 +136,55 @@ body{
   #property-info-header{
     color: #a49b63;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
   }
 
   #prop-price{
-    font-weight: 800;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 40px;
     font-style: italic;
+  }
+
+  .finance-header{
+    color: #a49b63;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .first-hr{
+    border: 1.5px solid white;
+  }
+
+  .second-hr{
+    border: 0.75px solid #a49b63;
+  }
+
+  .below-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #a49b63;
+    font-weight: lighter;
+  }
+
+  #p-first{
+    margin-bottom: 0;
+  }
+
+  #p-second{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #p-third{
+    margin-top: 0;
+  }
+
+  .last-hr{
+    border: 0.70px solid white;
   }
 
   .property-description{
@@ -149,11 +194,20 @@ body{
     margin: auto;
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 20px;
+    font-weight: lighter;
+  }
+
+  .rooms-text{
+    font-size: 26px;
+    font-weight: lighter;
+    margin-top: 90px;
   }
 
   .paragraph-text{
     text-align: justify;
     font-size: 20px;
+    font-weight: lighter;
+    margin-top: 80px;
   }
 
   /* Virtual tour Section */
@@ -322,6 +376,7 @@ button:focus {outline:0;}
 
   .signature-container{
     position: relative;
+    padding-bottom: 60px;
   }
 
   .signature-img{
@@ -396,4 +451,10 @@ button:focus {outline:0;}
     position: absolute;
     top: 50%;
     right: 32%;
+  }
+
+  .footer{
+    height: 80px;
+    width: 100%;
+    background-color: #a49b63;
   }
