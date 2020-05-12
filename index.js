@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', () => {
+
 //element variables
 const sliderSlide = document.querySelector('.slider-slide')
 const sliderImages = document.querySelectorAll('.img-slides')
@@ -47,3 +49,4 @@ sliderSlide.addEventListener('transitionend', ()=>{
   }
 });
 
+})
